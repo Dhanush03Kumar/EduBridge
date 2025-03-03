@@ -4,12 +4,13 @@ const Navbar = () =>{
     return(
         <nav className="navbar">
             <h1 className="Logo">EduBridge</h1>
-            <ul>
-                <li><Link href="/">Home</Link></li>
-                <li><Link href="/">Find Tutor</Link></li>
-                <li><Link href="/">About</Link></li>
-                <li><Link href="/">Login</Link></li>
-            </ul>
+            <div className="nav-links">
+                <Link href="#">Home</Link>
+                <Link href="#">Find Tutor</Link>
+                <Link href="#">About</Link>
+                <Link href="#">Login</Link>
+            </div>
+                
 
         </nav>
     );
